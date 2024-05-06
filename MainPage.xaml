@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestTnRu.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Test the download nigger"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Button
+                x:Name="TunisiaButton"
+                Text="Download from Tunisia Server" 
+                Clicked="TunisiaButton_Clicked"
+                HorizontalOptions="Fill" />
+            <Button
+                x:Name="RussiaButton"
+                Text="Download from Russia Server" 
+                Clicked="RussiaButton_Clicked"
+                HorizontalOptions="Fill" />
+
+            <HorizontalStackLayout>
+                <Label HorizontalOptions="Start" Text="" x:Name="percentLbl" WidthRequest="30"></Label>
+                <ProgressBar HorizontalOptions="CenterAndExpand" x:Name="ProgressBar" HeightRequest="250" WidthRequest="200"></ProgressBar>
+            </HorizontalStackLayout>
+
+            <Label Text="File Size: " x:Name="sizeLabel"></Label>
+            <Label Text="Download Speed : " x:Name="downloadSpeedlbl"></Label>
+            <HorizontalStackLayout>
+                <Label Text="Tunisia server Speed (avg) : " ></Label>
+                <Label Text="" x:Name="TunisiaSpeedlbl"></Label>
+            </HorizontalStackLayout>
+            
+            <Label Text="Russia Server Speed (avg): " x:Name="RussiaSpeedlbl"></Label>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
