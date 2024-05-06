@@ -1,4 +1,4 @@
-![Downloads the file while displaying download stats and in the end shows average download speed from a server (FTP) ]([http://url/to/img.png](https://i.ibb.co/TWbqmL1/photo-2024-05-06-11-54-49.jpg))
+![Downloads the file while displaying download stats and in the end shows average download speed from a server (FTP) ]([http://url/to/img.png](https://i.ibb.co/TWbqmL1/photo-2024-05-06-11-54-49.jpg)
 
 
 <b> Downloads the file while displaying download stats and in the end shows average download speed from a server (FTP)  
